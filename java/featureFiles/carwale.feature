@@ -18,6 +18,3 @@ And Add the Least run KM to the WhishList
 And Go to Wishlist and Click on More Details
 When All the details under Overview  are printed in the Same way as displayed in application
 Then Close the Browser
- 
-
-

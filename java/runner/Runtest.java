@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@CucumberOptions(features= {"src/test/java/features/Login.feature","src/test/java/features/CreateLead.feature"})
 //or
-@CucumberOptions(features= "src/test/java/features/", glue = {"steps","hook"}, monochrome = true
+@CucumberOptions(features= "src/test/java/features/", glue = "StepDefinitions, monochrome = true"
 //,tags= {"@functional"}
 )
 //snippets=SnippetType.CAMELCASE
